@@ -1,0 +1,296 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --socondary-font: 'Raleway', sans-serif;
+  --dark-color: #2e2f42;
+  --primarybrand-color: #4d5ae5;
+  --text-color: #434455;
+  --modalbackground-color: #fff;
+  --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+  --pressedstate-color: #404bbf;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  background-color: var(--modalbackground-color);
+}
+
+/* =============HEADER INDEX.HTML============ */
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--primarybrand-color);
+  font-family: var(--socondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--dark-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.navigation-contact {
+  list-style: none;
+}
+
+.navigation-page {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.navigation-page:hover,
+.navigation-page:focus,
+.navigation-page:active {
+  color: var(--pressedstate-color);
+}
+
+.email,
+.phone,
+.address,
+.contact {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--pressedstate-color);
+
+}
+
+.email:hover,
+.phone:hover,
+.email:focus,
+.phone:focus {
+  color: var(--pressedstate-color);
+}
+
+/* =============SOLLUTIONS INDEX.HTML============ */
+
+.sollutions {
+  background-color: var(--dark-color);
+  text-align: center;
+}
+
+.sollutions-tiitle {
+  color: var(--modalbackground-color);
+
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.buttom-order {
+  font-family: var(--main-font);
+  color: var(--modalbackground-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--primarybrand-color);
+  cursor: pointer;
+}
+
+.buttom-order:focus,
+.buttom-order:hover {
+  background-color: var(--pressedstate-color);
+}
+
+
+
+
+
+.feature-name {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.feature-description {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* =============DEVICES INDEX.HTML============ */
+.devices-tittle {
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-tittle {
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+
+
+/* =============text-align: center;============ */
+
+
+.team-member {
+  background-color: var(--modalbackground-color);
+}
+
+.team-name {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-role {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+  background: var(--dark-color);
+  color: var(--modalbackground-color);
+}
+
+
+.studio-footer {
+  color: var(--light-color);
+}
+
+.footer-paragraph {
+  color: var(--light-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============portfolio;============ */
+
+
+
+.button-name {
+  font-family: var(--main-font);
+  color: var(--primarybrand-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--light-color);
+
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+}
+
+.button-name:hover,
+.button-name:focus {
+  color: var(--modalbackground-color);
+  background-color: var(--pressedstate-color);
+}
+
+.apps-name {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.apps-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
