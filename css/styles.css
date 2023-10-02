@@ -42,9 +42,11 @@ body {
 .studio {
   color: var(--dark-color);
 }
-
-.list {
-  list-style: none;
+.list{
+list-style: none;
+}
+.list-flex {
+ 
   display: flex;
   padding-left: 0px;
 
@@ -124,18 +126,16 @@ body {
 
 /* =============SOLLUTIONS INDEX.HTML============ */
 
-.sollutions {
-  background-color: var(--dark-color);
-  text-align: center;
-}
+
 
 .sollutions-tiitle {
   color: var(--modalbackground-color);
-
+max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin: 68px auto 48px;
 }
 
 .buttom-order {
@@ -147,6 +147,11 @@ body {
   letter-spacing: 0.64px;
   background-color: var(--primarybrand-color);
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+
+
 }
 
 .buttom-order:focus,
@@ -317,7 +322,7 @@ body {
   color: var(--text-color);
 }
 
-/* flex */
+/* -----------------------flex header----------------------- */
 
 .container-header {
   height: 72px;
@@ -346,3 +351,24 @@ body {
 .navigation-contact-list:last-child{
   margin-left: 40px;
 }
+
+/* -----------------------flex main----------------------- */
+
+.section{
+  padding: 120px 0;
+}
+
+.sollutions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  background-color: var(--dark-color);
+  text-align: center;
+  height: 600px;
+  
+}
+.features-strategy{
+visibility: hidden;
+font-size: 0px;}
+
