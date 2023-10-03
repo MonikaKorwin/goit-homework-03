@@ -169,6 +169,7 @@ max-width: 496px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin: 0px;
 }
 
 .feature-description {
@@ -178,6 +179,7 @@ max-width: 496px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin: 0px
 }
 
 /* =============DEVICES INDEX.HTML============ */
@@ -372,3 +374,32 @@ max-width: 496px;
 visibility: hidden;
 font-size: 0px;}
 
+.features-div{
+  display: flex;
+  justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-features{
+  max-width: 1128px;
+ 
+    max-width: 1128px;
+    margin: 0 auto;
+        justify-content: space-between;
+    align-items: center;
+}
+
+.feature-flex{
+  display: flex;
+  padding: 0px;
+  
+}
+
+.feature-item{
+margin-right: 24px;
+}
+
+..feature-item:last-child {
+  margin-right: 0px;
+}
