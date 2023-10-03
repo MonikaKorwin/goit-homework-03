@@ -203,7 +203,8 @@ body {
 
 .team {
   background-color: var(--light-color);
-  
+ 
+
 
 }
 
@@ -227,7 +228,8 @@ body {
   background-color: var(--modalbackground-color);
   margin-right: 24px;
 }
-.team-member:last-child{
+
+.team-member:last-child {
   margin-right: 0px;
 }
 
@@ -238,7 +240,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin: 0 auto;
- 
+
 }
 
 .team-role {
@@ -266,7 +268,7 @@ body {
 .footer {
   background: var(--dark-color);
   color: var(--modalbackground-color);
- 
+
 }
 
 
@@ -334,7 +336,7 @@ body {
 
 .container-header {
   height: 72px;
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
@@ -390,7 +392,7 @@ body {
 }
 
 .container-features {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -428,8 +430,8 @@ body {
   margin: 0px auto;
 }
 
-.devices-list{
-margin-right: 24px;
+.devices-list {
+  margin-right: 24px;
 }
 
 .devices-list:last-child {
@@ -437,32 +439,33 @@ margin-right: 24px;
 }
 
 .container-team{
-max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
 
 }
 
-.team-flex{
+.team-flex {
   display: flex;
   padding: 0px;
-    margin: 0 auto;
-    text-align: center
+  margin: 0 auto;
+  text-align: center;
+
 
 }
 
-.team-photo{
-  margin-bottom: 32px ;
+.team-photo {
+  margin-bottom: 32px;
 }
 
-.container-footer{
+.container-footer {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   height: 312px;
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
 }
 
-.logo-footer{
+.logo-footer {
   margin-top: 101.5px;
   margin-bottom: 17.5px;
 }
