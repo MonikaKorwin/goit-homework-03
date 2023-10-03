@@ -58,6 +58,7 @@ img{
 
   display: flex;
   padding-left: 0px;
+ 
 
 
 }
@@ -79,13 +80,15 @@ img{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0 24px;
+  padding-bottom: 24px;
 
 }
 
 
 .navigation-list {
   margin-right: 40px;
-  padding: 24px 0 24px;
+ 
 }
 
 .navigation-list:last-child {
