@@ -54,7 +54,7 @@ img{
 }
 
 .list-flex,
-.menu {
+.menu-header {
 
   display: flex;
   padding-left: 0px;
@@ -362,6 +362,7 @@ img{
   justify-content: space-between;
   align-items: center;
 }
+
 .navigation-contact-list{
   margin-right: 40px;
 }
