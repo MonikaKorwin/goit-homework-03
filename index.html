@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,42 +25,44 @@
 
   <body>
     <!-- header -->
-    <header class="container-header">
-      <nav class="navigation">
-        <a class="logo link" href="./index.html"
-          >Web<span class="studio">Studio</span></a
-        >
-        <div class="list-div">
+    <header>
+      <div class="container-header">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html"
+            >Web<span class="studio">Studio</span></a
+          >
+          <div class="list-div">
+            <ul class="list list-flex">
+              <li class="navigation-list">
+                <a href="./index.html" class="navigation-page link">Studio</a>
+              </li>
+              <li class="navigation-list">
+                <a href="./portfolio.html" class="navigation-page link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="navigation-list">
+                <a href="" class="navigation-page link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <address class="address">
           <ul class="list list-flex">
-            <li class="navigation-list">
-              <a href="./index.html" class="navigation-page link">Studio</a>
-            </li>
-            <li class="navigation-list">
-              <a href="./portfolio.html" class="navigation-page link"
-                >Portfolio</a
+            <li class="navigation-contact-list">
+              <a class="contact link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
-            <li class="navigation-list">
-              <a href="" class="navigation-page link">Contacts</a>
+            <li class="navigation-contact-list">
+              <a class="contact link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
-        </div>
-      </nav>
-
-      <address class="address">
-        <ul class="list list-flex">
-          <li class="navigation-contact-list">
-            <a class="contact link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="navigation-contact-list">
-            <a class="contact link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        </address>
+      </div>
     </header>
 
     <!-- ////header -->
