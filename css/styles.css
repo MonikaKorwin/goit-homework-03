@@ -188,7 +188,8 @@ img{
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin: 0px;
+ 
+  margin-bottom: 8px;
 }
 
 .feature-description {
@@ -399,7 +400,6 @@ img{
 }
 
 .features-strategy {
-  visibility: hidden;
   font-size: 0px;
 }
 
@@ -428,7 +428,8 @@ img{
 
 .feature-item {
   margin-right: 24px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+
 
 }
 
@@ -505,3 +506,21 @@ padding: 0 15px 0 15px;
   padding-bottom: 188px;
 
  }
+
+ .section-feature{
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
