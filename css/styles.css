@@ -355,12 +355,14 @@ img{
 
 .container-header {
   height: 72px;
-  width: 1158px;
+   width: 1158px; 
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   justify-content: space-between;
   align-items: center;
+  
+ 
 
 }
 .header{
@@ -401,6 +403,7 @@ img{
   background-color: var(--dark-color);
   text-align: center;
   height: 600px;
+ 
 
 }
 
@@ -482,7 +485,10 @@ img{
 
 
 }
-
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .container-footer {
   display: flex;
@@ -492,10 +498,7 @@ img{
   margin: 0 auto;
 }
 
-.logo-footer {
-  display: inline-block; 
-  margin-bottom: 16px;
-}
+
 
 .container{
 width: 1158px;
@@ -528,6 +531,57 @@ padding: 0 15px 0 15px;
 }
 
 .teamer-name{
+  padding: 32px 0px;
+}
 
-  padding: 32px 16px 32px;
+.main{
+  padding:96px 0 120px 0;
+}
+
+.list-bottoms{
+  display: flex;
+
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+ 
+}
+
+.button-portfolio{
+  padding: 12px 24px;
+  border: 1px solid var(--accent-color);
+background: var(--light-color);
+border-radius: 4px;
+color: var(--primarybrand-color);
+  text-align: center;
+  
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+ cursor: pointer;
+  letter-spacing: 0.64px;
+
+}
+
+.button-portfolio:focus,
+.button-portfolio:hover{
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  background: var(--pressedstate-color);
+  color: var(--modalbackground-color);
+    
+  
+}
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list{
+  width: calc((100% - 48px) / 3);
 }
