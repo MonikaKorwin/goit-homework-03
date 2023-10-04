@@ -148,7 +148,7 @@ img{
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin: 68px auto 48px;
+  margin: 0 auto 48px auto;
 
 }
 
@@ -168,6 +168,7 @@ img{
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
 
 
 }
@@ -502,4 +503,5 @@ padding: 0 15px 0 15px;
  .section-sollution{
   padding-top: 188px;
   padding-bottom: 188px;
+
  }
