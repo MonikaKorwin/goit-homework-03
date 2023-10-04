@@ -43,7 +43,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
+
 }
 
 .logo-header {
@@ -611,4 +611,10 @@ img {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
+}
+
+.logo, 
+.address, 
+.logo-footer{
+  display: inline-block;
 }
