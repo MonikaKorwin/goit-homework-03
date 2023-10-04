@@ -290,7 +290,7 @@ img {
   background: var(--dark-color);
   color: var(--modalbackground-color);
   padding: 100px 0 100px;
- 
+
 
 }
 
@@ -408,9 +408,9 @@ img {
   align-items: center;
   background-color: var(--dark-color);
   text-align: center;
-  height: 600px;
+
   padding-top: 188px;
- 
+
 
 
 
@@ -503,7 +503,7 @@ img {
 .container-footer {
   display: flex;
   flex-direction: column;
-  
+
   width: 1158px;
   margin: 0 auto;
 }
@@ -517,7 +517,8 @@ img {
 }
 
 .section-sollution {
- background-color: var(--dark-color);
+  background-color: var(--dark-color);
+  padding: 188px 0;
 }
 
 .section-feature {
@@ -583,9 +584,9 @@ img {
   color: var(--modalbackground-color);
 }
 
-  .portfolio-list {
-    width: calc((100% - 48px)/ 3);
-  }
+.portfolio-list {
+  width: calc((100% - 48px)/ 3);
+}
 
 
 .portfolio {
@@ -606,12 +607,8 @@ img {
   width: 360px;
 }
 
-.container-porfolio{
+.container-porfolio {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-}
-
-.container-section{
-  padding: 188px 0;
 }
