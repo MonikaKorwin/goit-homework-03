@@ -149,11 +149,13 @@ img{
   line-height: 1.07;
   letter-spacing: 1.12px;
   margin: 68px auto 48px;
+
 }
 
 .buttom-order {
   font-family: var(--main-font);
-  color: var(--modalbackground-color);
+  background-color: var(--modalbackground-color);
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -163,6 +165,9 @@ img{
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 
 
 }
@@ -493,3 +498,8 @@ width: 1158px;
 margin:0 auto;
 padding: 0 15px 0 15px;
 }
+
+ .section-sollution{
+  padding-top: 188px;
+  padding-bottom: 188px;
+ }
